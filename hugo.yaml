@@ -1,0 +1,16 @@
+baseURL: https://rorimwema.github.io/
+languageCode: en-us
+title: Rori's Blog
+theme: hugo-bearcub
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Posts
+      url: /posts
+      weight: 2
+    - name: About
+      url: /about
+      weight: 3

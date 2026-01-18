@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Intro on Rori&#39;s Blog</title>
+    <link>http://localhost:1313/tags/intro/</link>
+    <description>Recent content in Intro on Rori&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Rori, a programming languages &amp;amp; compilers enthusiast, Unix hacker, and AI infra explorer.&lt;/p&gt;&#xA;&lt;p&gt;This is where I&amp;rsquo;ll share my learning journey.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="welcome-to-my-blog">Welcome to my blog</h1>
+<p>I&rsquo;m Rori, a programming languages &amp; compilers enthusiast, Unix hacker, and AI infra explorer.</p>
+<p>This is where I&rsquo;ll share my learning journey.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
