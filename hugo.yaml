@@ -1,0 +1,9 @@
+baseURL: https://rorimwema.github.io/
+languageCode: en-us
+title: Clint Rori
+theme: hugo-bearcub
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
