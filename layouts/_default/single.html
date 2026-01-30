@@ -1,8 +1,24 @@
 {{ define "main" }}
-<content>
-  {{ .Content }}
-  <p class="byline">
-    <small>Clint Rori | {{ .Date.Format "2006-01-02" }}</small>
-  </p>
-</content>
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+    <div class="post-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      <span>&bull;</span>
+      <span>{{ .ReadingTime }} min read</span>
+      {{ with .Params.tags }}
+      <span>&bull;</span>
+      <span>{{ delimit . ", " }}</span>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  <div class="byline">
+    <small>Written by Clint Rori</small>
+  </div>
+</article>
 {{ end }}

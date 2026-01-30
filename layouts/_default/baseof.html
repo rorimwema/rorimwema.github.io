@@ -7,36 +7,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{- partial "favicon.html" . -}}
   <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
-
   {{- partial "seo_tags.html" . -}}
   <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  {{ $style := print (default "original" .Site.Params.themeStyle) ".css" | resources.Get | minify }}
+  {{- $style := print (default "original" .Site.Params.themeStyle) ".css" | resources.Get | minify -}}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
-  {{ if (.Page.Store.Get "hasCodeBlock") }}
-    {{ $syntax := resources.Get "syntax.css" | minify }}
-    <link href="{{ $syntax.RelPermalink }}" rel="stylesheet">
-  {{ end }}
+  {{- if (.Page.Store.Get "hasCodeBlock") -}}
+  {{- $syntax := resources.Get "syntax.css" | minify -}}
+  <link href="{{ $syntax.RelPermalink }}" rel="stylesheet">
+  {{- end -}}
 
-  {{ with .Params.style }}
-    {{ $extra := resources.Get . | minify }}
-    <link href="{{ $extra.RelPermalink }}" rel="stylesheet">
-  {{ end }}
+  {{- with .Params.style -}}
+  {{- $extra := resources.Get . | minify -}}
+  <link href="{{ $extra.RelPermalink }}" rel="stylesheet">
+  {{- end -}}
 
-  {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+  {{- with .OutputFormats.Get "rss" -}}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{- end -}}
 
+  {{- $custom := resources.Get "custom.css" | minify -}}
+  <link href="{{ $custom.RelPermalink }}" rel="stylesheet">
   {{- partial "custom_head.html" . -}}
 </head>
 
 <body>
   <header>
+    <a href="{{ .Site.BaseURL }}" style="font-weight: bold; font-size: 1.2rem; text-decoration: none; color: #111;">{{
+      .Site.Title }}</a>
     {{- partial "header.html" . -}}
   </header>
   <main id="main-content">
-    {{- block "main" . }}{{- end }}
+    {{- block "main" . }}{{- end -}}
   </main>
   {{- partial "footer.html" . -}}
   {{- partial "custom_body.html" . -}}

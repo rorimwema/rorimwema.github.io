@@ -6,8 +6,36 @@
     <description>Recent content on Clint Rori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rorimwema.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://rorimwema.github.io/about/</link>
+      <pubDate>Tue, 20 Jan 2026 10:00:00 +0300</pubDate>
+      <guid>https://rorimwema.github.io/about/</guid>
+      <description>&lt;p&gt;I believe computers are simple. It&amp;rsquo;s us humans who keep making them complicated.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I&amp;rsquo;m deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs &lt;em&gt;before&lt;/em&gt; they happen.&lt;/p&gt;&#xA;&lt;h3 id=&#34;my-toolbox-affectionately-overcomplicated&#34;&gt;My Toolbox (Affectionately Overcomplicated)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;OCaml&lt;/strong&gt; — My comfort zone. Currently building a Lisp interpreter because apparently writing one language in another language isn&amp;rsquo;t meta enough.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I believe computers are simple. It&rsquo;s us humans who keep making them complicated.</p>
+<p>I&rsquo;m that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I&rsquo;m deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs <em>before</em> they happen.</p>
+<h3 id="my-toolbox-affectionately-overcomplicated">My Toolbox (Affectionately Overcomplicated)</h3>
+<p><strong>OCaml</strong> — My comfort zone. Currently building a Lisp interpreter because apparently writing one language in another language isn&rsquo;t meta enough.</p>
+<p><strong>Erlang</strong> — For when I need processes that don&rsquo;t crash when I inevitably make mistakes. The &ldquo;let it fail&rdquo; philosophy speaks to me on a spiritual level.</p>
+<p><strong>Elm</strong> — JavaScript that is not shit. Type-safe frontend development; what a concept.</p>
+<p><strong>Haskell</strong> — I &ldquo;cheat&rdquo; with it. Building a search engine and pretending I understand monads. (I don&rsquo;t. Nobody does. We all just pretend.)</p>
+<p><strong>The Art of Computer Programming</strong> — Currently working through Knuth. Volume 4B is my gym membership—I keep paying for it but rarely show up.</p>
+<h3 id="philosophy">Philosophy</h3>
+<p>I admire <strong>Mat Armstrong&rsquo;s</strong> approach: solve the actual problem, ignore the hype, write code that makes sense six months later. Complexity is a bug, not a feature. If you need a diagram to explain your architecture, your architecture is wrong.</p>
+<h3 id="currently-building">Currently Building</h3>
+<ul>
+<li>A Lisp interpreter in OCaml (because every programmer must go through this rite of passage)</li>
+<li>A search engine in Haskell (because crawling the web seemed easier than understanding Zettabyte-scale systems papers)</li>
+</ul>
+<h3 id="the-goal">The Goal</h3>
+<p>Uncomplicate things. Make programming accessible. Prove that elegant solutions exist—you just have to stop accepting messy ones.</p>
+<hr>
+<p><em>&ldquo;The best code is the code you don&rsquo;t have to write. The second best is the code you write once and never touch again.&rdquo;</em></p>
+<hr>
+]]></content:encoded>
+    </item>
     <item>
       <title>So You Want to Be a Programmer</title>
       <link>https://rorimwema.github.io/posts/hello-world/</link>
