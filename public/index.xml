@@ -27,6 +27,23 @@ Hoping the output will be divine.</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Neovim Config</title>
+      <link>https://rorimwema.github.io/projects/nvim-config/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://rorimwema.github.io/projects/nvim-config/</guid>
+      <description>&lt;p&gt;My personal Neovim configuration. I&amp;rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blazing Fast&lt;/strong&gt;: Startup time &amp;lt; 50ms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LSP Support&lt;/strong&gt;: Native LSP integration for TypeScript, Go, Rust, OCaml, and more.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plugin Manager&lt;/strong&gt;: Uses &lt;code&gt;lazy.nvim&lt;/code&gt; for efficient plugin loading.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;: Custom colorscheme integration (Flexoki support included).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check out the &lt;a href=&#34;https://github.com/rorimwema/nvim-config&#34;&gt;repository&lt;/a&gt; for installation instructions.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My personal Neovim configuration. I&rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Blazing Fast</strong>: Startup time &lt; 50ms.</li>
+<li><strong>LSP Support</strong>: Native LSP integration for TypeScript, Go, Rust, OCaml, and more.</li>
+<li><strong>Plugin Manager</strong>: Uses <code>lazy.nvim</code> for efficient plugin loading.</li>
+<li><strong>Aesthetics</strong>: Custom colorscheme integration (Flexoki support included).</li>
+</ul>
+<p>Check out the <a href="https://github.com/rorimwema/nvim-config">repository</a> for installation instructions.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>About Me</title>
       <link>https://rorimwema.github.io/about/</link>
       <pubDate>Tue, 20 Jan 2026 10:00:00 +0300</pubDate>

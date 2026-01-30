@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="projects-page">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="page-tagline">{{ . }}</p>{{ end }}
+        {{ with .Content }}<div class="page-description">{{ . }}</div>{{ end }}
+    </header>
+
+    <ul class="project-list">
+        {{ range .Pages }}
+        <li class="project-item">
+            <a href="{{ .Params.repo_url | default .RelPermalink }}" class="project-link" target="_blank" rel="noopener">
+                <span class="project-title">{{ .Title }}</span>
+                <span class="project-arrow">→</span>
+            </a>
+            <p class="project-description">{{ .Description }}</p>
+            {{ with .Params.technologies }}
+            <div class="project-tech">
+                {{ range . }}
+                <span class="tech-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
