@@ -3,7 +3,6 @@ title: "The Code of Silence"
 date: 2026-01-30T21:00:00+03:00
 draft: false
 categories: ["Poems & Philosophy"]
-tags: ["philosophy", "coding"]
 ---
 
 In the quiet hum of the server room,

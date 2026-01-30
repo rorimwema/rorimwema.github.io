@@ -5,19 +5,10 @@
     <loc>https://rorimwema.github.io/categories/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/tags/coding/</loc>
-    <lastmod>2026-01-30T21:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://rorimwema.github.io/tags/philosophy/</loc>
-    <lastmod>2026-01-30T21:00:00+03:00</lastmod>
-  </url><url>
     <loc>https://rorimwema.github.io/categories/poems--philosophy/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
     <loc>https://rorimwema.github.io/posts/</loc>
-    <lastmod>2026-01-30T21:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://rorimwema.github.io/tags/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
     <loc>https://rorimwema.github.io/posts/the-code-of-silence/</loc>
@@ -34,5 +25,7 @@
   </url><url>
     <loc>https://rorimwema.github.io/posts/hello-world/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rorimwema.github.io/tags/</loc>
   </url>
 </urlset>
