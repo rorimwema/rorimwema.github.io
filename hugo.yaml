@@ -16,6 +16,10 @@ menu:
       name: About
       url: /about/
       weight: 30
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 40
 
 markup:
   goldmark:

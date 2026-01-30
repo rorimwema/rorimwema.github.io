@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Clint Rori</title>
-    <link>https://rorimwema.github.io/posts/</link>
-    <description>Recent content in Posts on Clint Rori</description>
+    <title>Programming on Clint Rori</title>
+    <link>https://rorimwema.github.io/categories/programming/</link>
+    <description>Recent content in Programming on Clint Rori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jan 2026 21:00:00 +0300</lastBuildDate>
-    <atom:link href="https://rorimwema.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Code of Silence</title>
-      <link>https://rorimwema.github.io/posts/the-code-of-silence/</link>
-      <pubDate>Fri, 30 Jan 2026 21:00:00 +0300</pubDate>
-      <guid>https://rorimwema.github.io/posts/the-code-of-silence/</guid>
-      <description>&lt;p&gt;In the quiet hum of the server room,&#xA;Where logic weaves its digital loom,&#xA;We trade in absolute, binary truth,&#xA;Seeking elegance in eternal youth.&lt;/p&gt;&#xA;&lt;p&gt;But life is fuzzy, a float precision,&#xA;Full of race conditions and blurred vision.&#xA;We debug the world line by line,&#xA;Hoping the output will be divine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Is the universe just a recursive call?&lt;/em&gt;&#xA;&lt;em&gt;Or are we trapped in an endless &lt;code&gt;while(true)&lt;/code&gt; loop after all?&lt;/em&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In the quiet hum of the server room,
-Where logic weaves its digital loom,
-We trade in absolute, binary truth,
-Seeking elegance in eternal youth.</p>
-<p>But life is fuzzy, a float precision,
-Full of race conditions and blurred vision.
-We debug the world line by line,
-Hoping the output will be divine.</p>
-<p><em>Is the universe just a recursive call?</em>
-<em>Or are we trapped in an endless <code>while(true)</code> loop after all?</em></p>
-]]></content:encoded>
-    </item>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rorimwema.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>So You Want to Be a Programmer</title>
       <link>https://rorimwema.github.io/posts/hello-world/</link>

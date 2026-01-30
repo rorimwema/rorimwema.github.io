@@ -6,6 +6,12 @@
       <span>{{ .Date.Format "January 2, 2006" }}</span>
       <span>&bull;</span>
       <span>{{ .ReadingTime }} min read</span>
+      {{ with .Params.categories }}
+      <span>&bull;</span>
+      {{ range . }}
+      <a href="{{ " categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+      {{ end }}
       {{ with .Params.tags }}
       <span>&bull;</span>
       <span>{{ delimit . ", " }}</span>

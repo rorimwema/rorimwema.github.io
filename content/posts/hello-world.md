@@ -2,6 +2,7 @@
 title: "So You Want to Be a Programmer"
 date: 2026-01-18
 draft: false
+categories: ["Programming"]
 ---
 
 So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.
