@@ -296,6 +296,30 @@ article h1 {
   color: var(--tx-tertiary);
 }
 
+/* Homepage - Fixed, no scrolling */
+body.home {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+body.home main {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+body.home .home-content {
+  flex-shrink: 0;
+}
+
+body.home .post-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
   body {

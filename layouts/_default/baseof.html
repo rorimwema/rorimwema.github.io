@@ -33,7 +33,7 @@
   {{- partial "custom_head.html" . -}}
 </head>
 
-<body>
+<body{{ if .IsHome }} class="home"{{ end }}>
   <header>
     <a href="{{ .Site.BaseURL }}" style="font-weight: bold; font-size: 1.2rem; text-decoration: none; color: #111;">{{
       .Site.Title }}</a>
