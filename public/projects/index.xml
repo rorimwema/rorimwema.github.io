@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Clint Rori</title>
-    <link>https://rorimwema.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Clint Rori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://rorimwema.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flowy</title>
-      <link>https://rorimwema.github.io/projects/flowy/</link>
+      <link>http://localhost:1313/projects/flowy/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/flowy/</guid>
+      <guid>http://localhost:1313/projects/flowy/</guid>
       <description>&lt;p&gt;Flowy is a Telegram mini app that brings payments and commerce directly into the messaging experience. No need to switch apps or remember passwords.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instant Payments&lt;/strong&gt; — Send and receive money using just a username&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;In-App Store&lt;/strong&gt; — Browse and purchase goods without leaving Telegram&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Transaction History&lt;/strong&gt; — Track all your payments in one place&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Secure Wallet&lt;/strong&gt; — End-to-end encrypted transactions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;p&gt;Built with TypeScript and Node.js, using the Telegram Bot API for seamless integration. PostgreSQL handles the transactional data with proper ACID compliance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Flowy is a Telegram mini app that brings payments and commerce directly into the messaging experience. No need to switch apps or remember passwords.</p>
 <h2 id="features">Features</h2>
@@ -30,9 +30,9 @@
     </item>
     <item>
       <title>Neovim Config</title>
-      <link>https://rorimwema.github.io/projects/nvim-config/</link>
+      <link>http://localhost:1313/projects/nvim-config/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/nvim-config/</guid>
+      <guid>http://localhost:1313/projects/nvim-config/</guid>
       <description>&lt;p&gt;My personal Neovim configuration. I&amp;rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blazing Fast&lt;/strong&gt;: Startup time &amp;lt; 50ms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LSP Support&lt;/strong&gt;: Native LSP integration for TypeScript, Go, Rust, OCaml, and more.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plugin Manager&lt;/strong&gt;: Uses &lt;code&gt;lazy.nvim&lt;/code&gt; for efficient plugin loading.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;: Custom colorscheme integration (Flexoki support included).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check out the &lt;a href=&#34;https://github.com/rorimwema/nvim-config&#34;&gt;repository&lt;/a&gt; for installation instructions.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My personal Neovim configuration. I&rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.</p>
 <h3 id="features">Features</h3>
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>Lisp Interpreter</title>
-      <link>https://rorimwema.github.io/projects/lisp-interpreter/</link>
+      <link>http://localhost:1313/projects/lisp-interpreter/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/lisp-interpreter/</guid>
+      <guid>http://localhost:1313/projects/lisp-interpreter/</guid>
       <description>&lt;p&gt;A Lisp interpreter written in OCaml, because writing a Lisp is a rite of passage every programmer should go through.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Lexical Scoping&lt;/strong&gt; — Proper environment model with closures&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Macros&lt;/strong&gt; — Code that writes code&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tail-Call Optimization&lt;/strong&gt; — Recursion without stack overflow&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;REPL&lt;/strong&gt; — Interactive development environment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;&#xA;&lt;p&gt;The interpreter follows the classic structure: lexer → parser → evaluator. Written in OCaml for strong type safety and pattern matching elegance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A Lisp interpreter written in OCaml, because writing a Lisp is a rite of passage every programmer should go through.</p>
 <h2 id="features">Features</h2>
@@ -77,9 +77,9 @@
     </item>
     <item>
       <title>Crawlr</title>
-      <link>https://rorimwema.github.io/projects/search-engine/</link>
+      <link>http://localhost:1313/projects/search-engine/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/search-engine/</guid>
+      <guid>http://localhost:1313/projects/search-engine/</guid>
       <description>&lt;p&gt;Crawlr is a minimal search engine built from scratch in Haskell. It crawls the web, builds an inverted index, and ranks pages using a simplified PageRank algorithm.&lt;/p&gt;&#xA;&lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web Crawler&lt;/strong&gt; — Polite, concurrent crawling with rate limiting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt; — Inverted index for fast full-text search&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt; — Link analysis and content scoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Query Engine&lt;/strong&gt; — Boolean and ranked retrieval&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-haskell&#34;&gt;Why Haskell?&lt;/h2&gt;&#xA;&lt;p&gt;The type system catches bugs at compile time. Concurrency is elegant with Software Transactional Memory (STM). And honestly, it&amp;rsquo;s a good excuse to learn more about functional programming patterns.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Crawlr is a minimal search engine built from scratch in Haskell. It crawls the web, builds an inverted index, and ranks pages using a simplified PageRank algorithm.</p>
 <h2 id="components">Components</h2>

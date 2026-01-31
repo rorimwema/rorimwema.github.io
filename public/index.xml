@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Clint Rori</title>
-    <link>https://rorimwema.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Clint Rori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://rorimwema.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Code of Silence</title>
-      <link>https://rorimwema.github.io/posts/the-code-of-silence/</link>
+      <link>http://localhost:1313/posts/the-code-of-silence/</link>
       <pubDate>Fri, 30 Jan 2026 21:00:00 +0300</pubDate>
-      <guid>https://rorimwema.github.io/posts/the-code-of-silence/</guid>
+      <guid>http://localhost:1313/posts/the-code-of-silence/</guid>
       <description>&lt;p&gt;In the quiet hum of the server room,&#xA;Where logic weaves its digital loom,&#xA;We trade in absolute, binary truth,&#xA;Seeking elegance in eternal youth.&lt;/p&gt;&#xA;&lt;p&gt;But life is fuzzy, a float precision,&#xA;Full of race conditions and blurred vision.&#xA;We debug the world line by line,&#xA;Hoping the output will be divine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Is the universe just a recursive call?&lt;/em&gt;&#xA;&lt;em&gt;Or are we trapped in an endless &lt;code&gt;while(true)&lt;/code&gt; loop after all?&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In the quiet hum of the server room,
 Where logic weaves its digital loom,
@@ -28,9 +28,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>Flowy</title>
-      <link>https://rorimwema.github.io/projects/flowy/</link>
+      <link>http://localhost:1313/projects/flowy/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/flowy/</guid>
+      <guid>http://localhost:1313/projects/flowy/</guid>
       <description>&lt;p&gt;Flowy is a Telegram mini app that brings payments and commerce directly into the messaging experience. No need to switch apps or remember passwords.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instant Payments&lt;/strong&gt; — Send and receive money using just a username&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;In-App Store&lt;/strong&gt; — Browse and purchase goods without leaving Telegram&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Transaction History&lt;/strong&gt; — Track all your payments in one place&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Secure Wallet&lt;/strong&gt; — End-to-end encrypted transactions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;&#xA;&lt;p&gt;Built with TypeScript and Node.js, using the Telegram Bot API for seamless integration. PostgreSQL handles the transactional data with proper ACID compliance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Flowy is a Telegram mini app that brings payments and commerce directly into the messaging experience. No need to switch apps or remember passwords.</p>
 <h2 id="features">Features</h2>
@@ -48,9 +48,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>Neovim Config</title>
-      <link>https://rorimwema.github.io/projects/nvim-config/</link>
+      <link>http://localhost:1313/projects/nvim-config/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/nvim-config/</guid>
+      <guid>http://localhost:1313/projects/nvim-config/</guid>
       <description>&lt;p&gt;My personal Neovim configuration. I&amp;rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blazing Fast&lt;/strong&gt;: Startup time &amp;lt; 50ms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LSP Support&lt;/strong&gt;: Native LSP integration for TypeScript, Go, Rust, OCaml, and more.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plugin Manager&lt;/strong&gt;: Uses &lt;code&gt;lazy.nvim&lt;/code&gt; for efficient plugin loading.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;: Custom colorscheme integration (Flexoki support included).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Check out the &lt;a href=&#34;https://github.com/rorimwema/nvim-config&#34;&gt;repository&lt;/a&gt; for installation instructions.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My personal Neovim configuration. I&rsquo;ve spent way too many hours tweaking this to be the perfect dev environment.</p>
 <h3 id="features">Features</h3>
@@ -65,9 +65,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://rorimwema.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 20 Jan 2026 10:00:00 +0300</pubDate>
-      <guid>https://rorimwema.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;I believe computers are simple. It&amp;rsquo;s us humans who keep making them complicated.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I&amp;rsquo;m deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs &lt;em&gt;before&lt;/em&gt; they happen.&lt;/p&gt;&#xA;&lt;h3 id=&#34;my-toolbox-affectionately-overcomplicated&#34;&gt;My Toolbox (Affectionately Overcomplicated)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;OCaml&lt;/strong&gt; — My comfort zone. Currently building a Lisp interpreter because apparently writing one language in another language isn&amp;rsquo;t meta enough.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I believe computers are simple. It&rsquo;s us humans who keep making them complicated.</p>
 <p>I&rsquo;m that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I&rsquo;m deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs <em>before</em> they happen.</p>
@@ -93,9 +93,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>So You Want to Be a Programmer</title>
-      <link>https://rorimwema.github.io/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/posts/hello-world/</guid>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.&lt;/p&gt;&#xA;&lt;p&gt;Programming is not glamorous. It is not about showing off frameworks or boasting about your GitHub streak. It is about sitting there, staring at a problem, feeling your brain ache a little, and then — suddenly — a door opens, a tiny mechanism clicks, and the machine obeys. That moment is bliss, more than any job title or paycheck.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.</p>
 <p>Programming is not glamorous. It is not about showing off frameworks or boasting about your GitHub streak. It is about sitting there, staring at a problem, feeling your brain ache a little, and then — suddenly — a door opens, a tiny mechanism clicks, and the machine obeys. That moment is bliss, more than any job title or paycheck.</p>
@@ -106,9 +106,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>Lisp Interpreter</title>
-      <link>https://rorimwema.github.io/projects/lisp-interpreter/</link>
+      <link>http://localhost:1313/projects/lisp-interpreter/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/lisp-interpreter/</guid>
+      <guid>http://localhost:1313/projects/lisp-interpreter/</guid>
       <description>&lt;p&gt;A Lisp interpreter written in OCaml, because writing a Lisp is a rite of passage every programmer should go through.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Lexical Scoping&lt;/strong&gt; — Proper environment model with closures&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Macros&lt;/strong&gt; — Code that writes code&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tail-Call Optimization&lt;/strong&gt; — Recursion without stack overflow&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;REPL&lt;/strong&gt; — Interactive development environment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;&#xA;&lt;p&gt;The interpreter follows the classic structure: lexer → parser → evaluator. Written in OCaml for strong type safety and pattern matching elegance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A Lisp interpreter written in OCaml, because writing a Lisp is a rite of passage every programmer should go through.</p>
 <h2 id="features">Features</h2>
@@ -136,9 +136,9 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>Crawlr</title>
-      <link>https://rorimwema.github.io/projects/search-engine/</link>
+      <link>http://localhost:1313/projects/search-engine/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/projects/search-engine/</guid>
+      <guid>http://localhost:1313/projects/search-engine/</guid>
       <description>&lt;p&gt;Crawlr is a minimal search engine built from scratch in Haskell. It crawls the web, builds an inverted index, and ranks pages using a simplified PageRank algorithm.&lt;/p&gt;&#xA;&lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web Crawler&lt;/strong&gt; — Polite, concurrent crawling with rate limiting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Indexer&lt;/strong&gt; — Inverted index for fast full-text search&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ranker&lt;/strong&gt; — Link analysis and content scoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Query Engine&lt;/strong&gt; — Boolean and ranked retrieval&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-haskell&#34;&gt;Why Haskell?&lt;/h2&gt;&#xA;&lt;p&gt;The type system catches bugs at compile time. Concurrency is elegant with Software Transactional Memory (STM). And honestly, it&amp;rsquo;s a good excuse to learn more about functional programming patterns.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Crawlr is a minimal search engine built from scratch in Haskell. It crawls the web, builds an inverted index, and ranks pages using a simplified PageRank algorithm.</p>
 <h2 id="components">Components</h2>
@@ -156,10 +156,10 @@ Hoping the output will be divine.</p>
     </item>
     <item>
       <title>Now</title>
-      <link>https://rorimwema.github.io/now/</link>
+      <link>http://localhost:1313/now/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rorimwema.github.io/now/</guid>
-      <description>&lt;h2 id=&#34;what-im-doing-now&#34;&gt;What I&amp;rsquo;m Doing Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Last updated: January 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rorimwema.github.io/projects/flowy/&#34;&gt;Flowy&lt;/a&gt;&lt;/strong&gt; — A Telegram mini app for money and commerce. Making payments simple inside the app you already use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rorimwema.github.io/projects/nvim-config/&#34;&gt;Lisp Interpreter&lt;/a&gt;&lt;/strong&gt; — In OCaml, because every programmer needs to write a Lisp at least once.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learning&#34;&gt;Learning&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reading through &lt;em&gt;The Art of Computer Programming&lt;/em&gt; (Knuth) — Volume 4B at the moment&lt;/li&gt;&#xA;&lt;li&gt;Diving deeper into distributed systems and consensus algorithms&lt;/li&gt;&#xA;&lt;li&gt;Trying to finally understand monads in Haskell (still pretending)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;using&#34;&gt;Using&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: Neovim with my own &lt;a href=&#34;https://rorimwema.github.io/projects/nvim-config/&#34;&gt;config&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: OCaml for serious work, Python for quick scripts&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;OS&lt;/strong&gt;: macOS with a heavily customized terminal setup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;reading&#34;&gt;Reading&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Structure and Interpretation of Computer Programs&lt;/em&gt; (SICP) — re-reading, still learning new things&lt;/li&gt;&#xA;&lt;li&gt;Various papers on type theory and compiler design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;This is a &lt;a href=&#34;https://nownownow.com/about&#34;&gt;now page&lt;/a&gt;. If you have your own site, you should make one too.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/now/</guid>
+      <description>&lt;h2 id=&#34;what-im-doing-now&#34;&gt;What I&amp;rsquo;m Doing Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Last updated: January 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/projects/flowy/&#34;&gt;Flowy&lt;/a&gt;&lt;/strong&gt; — A Telegram mini app for money and commerce. Making payments simple inside the app you already use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/projects/nvim-config/&#34;&gt;Lisp Interpreter&lt;/a&gt;&lt;/strong&gt; — In OCaml, because every programmer needs to write a Lisp at least once.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learning&#34;&gt;Learning&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reading through &lt;em&gt;The Art of Computer Programming&lt;/em&gt; (Knuth) — Volume 4B at the moment&lt;/li&gt;&#xA;&lt;li&gt;Diving deeper into distributed systems and consensus algorithms&lt;/li&gt;&#xA;&lt;li&gt;Trying to finally understand monads in Haskell (still pretending)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;using&#34;&gt;Using&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: Neovim with my own &lt;a href=&#34;http://localhost:1313/projects/nvim-config/&#34;&gt;config&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: OCaml for serious work, Python for quick scripts&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;OS&lt;/strong&gt;: macOS with a heavily customized terminal setup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;reading&#34;&gt;Reading&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Structure and Interpretation of Computer Programs&lt;/em&gt; (SICP) — re-reading, still learning new things&lt;/li&gt;&#xA;&lt;li&gt;Various papers on type theory and compiler design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
       <content:encoded><![CDATA[<h2 id="what-im-doing-now">What I&rsquo;m Doing Now</h2>
 <p><em>Last updated: January 2026</em></p>
 <h3 id="building">Building</h3>
@@ -183,7 +183,6 @@ Hoping the output will be divine.</p>
 <li>Various papers on type theory and compiler design</li>
 </ul>
 <hr>
-<p><em>This is a <a href="https://nownownow.com/about">now page</a>. If you have your own site, you should make one too.</em></p>
 ]]></content:encoded>
     </item>
   </channel>

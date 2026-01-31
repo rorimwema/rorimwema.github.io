@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rorimwema.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/categories/poems--philosophy/</loc>
+    <loc>http://localhost:1313/categories/poems--philosophy/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/posts/the-code-of-silence/</loc>
+    <loc>http://localhost:1313/posts/the-code-of-silence/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/projects/flowy/</loc>
+    <loc>http://localhost:1313/projects/flowy/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/projects/nvim-config/</loc>
+    <loc>http://localhost:1313/projects/nvim-config/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-01-20T10:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/categories/programming/</loc>
+    <loc>http://localhost:1313/categories/programming/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/posts/hello-world/</loc>
+    <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/projects/lisp-interpreter/</loc>
+    <loc>http://localhost:1313/projects/lisp-interpreter/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/projects/search-engine/</loc>
+    <loc>http://localhost:1313/projects/search-engine/</loc>
     <lastmod>2025-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rorimwema.github.io/now/</loc>
+    <loc>http://localhost:1313/now/</loc>
   </url><url>
-    <loc>https://rorimwema.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

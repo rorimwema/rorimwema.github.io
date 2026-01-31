@@ -2,6 +2,8 @@ baseURL: https://rorimwema.github.io/
 languageCode: en-us
 title: Clint Rori
 theme: hugo-bearcub
+params:
+  favicon: /buddha-icon.svg
 menu:
   main:
     - identifier: home
