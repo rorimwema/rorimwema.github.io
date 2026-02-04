@@ -1,6 +1,6 @@
 ---
 title: "The Disappearance of Wonder"
-date: 2026-04-30T21:00:00+03:00
+date: 2026-02-04T20:30:00+03:00
 draft: false
 categories: ["Poems & Philosophy"]
 ---
