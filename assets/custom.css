@@ -408,4 +408,18 @@ body.home .post-list {
   .footer-link {
     font-size: 0.9rem;
   }
+
+  /* Mobile: Allow homepage to scroll naturally */
+  body.home {
+    height: auto;
+    overflow: visible;
+  }
+
+  body.home main {
+    overflow: visible;
+  }
+
+  body.home .post-list {
+    overflow-y: visible;
+  }
 }
