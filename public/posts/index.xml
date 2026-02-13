@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Clint Rori</title><link>https://rorimwema.github.io/posts/</link><description>Recent content in Posts on Clint Rori</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Feb 2026 20:30:00 +0300</lastBuildDate><atom:link href="https://rorimwema.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>The Disappearance of Wonder</title><link>https://rorimwema.github.io/posts/dont-grow-up/</link><pubDate>Wed, 04 Feb 2026 20:30:00 +0300</pubDate><guid>https://rorimwema.github.io/posts/dont-grow-up/</guid><description>&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Grow Up It&amp;rsquo;s a Scam&lt;/strong&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://tinyurl.com/nxmdpesb"
- alt="Don&amp;#39;t grow up" width="400"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Children are interesting creatures. Alive with dreams, energy, a happiness that costs nothing. They inhabit wonder the way fish inhabit water naturally, completely, without knowing they are wet.&lt;/p&gt;
-&lt;p&gt;Then they are told to &amp;ldquo;grow up.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Society arrives with its expectations, its imaginary rulebook for how life must be lived. But here is what the rulebook never admits: it is written specifically to kill the thing that makes you human.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>Don&rsquo;t Grow Up It&rsquo;s a Scam</strong></p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Clint Rori</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Clint Rori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Feb 2026 20:30:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Disappearance of Wonder</title>
+      <link>http://localhost:1313/posts/dont-grow-up/</link>
+      <pubDate>Wed, 04 Feb 2026 20:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/dont-grow-up/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Grow Up It&amp;rsquo;s a Scam&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://tinyurl.com/nxmdpesb&#34;&#xA;    alt=&#34;Don&amp;#39;t grow up&#34; width=&#34;400&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Children are interesting creatures. Alive with dreams, energy, a happiness that costs nothing. They inhabit wonder the way fish inhabit water naturally, completely, without knowing they are wet.&lt;/p&gt;&#xA;&lt;p&gt;Then they are told to &amp;ldquo;grow up.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Society arrives with its expectations, its imaginary rulebook for how life must be lived. But here is what the rulebook never admits: it is written specifically to kill the thing that makes you human.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Don&rsquo;t Grow Up It&rsquo;s a Scam</strong></p>
 <figure><img src="https://tinyurl.com/nxmdpesb"
     alt="Don&#39;t grow up" width="400">
 </figure>
@@ -21,16 +30,15 @@
 <p>So become the baby again. Let the wonder return. Look at the world as if you have never seen it, because in truth, you never have you have only been looking at your ideas about it. Only when the wonder returns does true imagination awaken. Only then do you live the life you love.</p>
 <p>It is never too late.</p>
 <p>As long as your heart beats.</p>
-]]></content:encoded></item><item><title>The Code of Silence</title><link>https://rorimwema.github.io/posts/the-code-of-silence/</link><pubDate>Fri, 30 Jan 2026 21:00:00 +0300</pubDate><guid>https://rorimwema.github.io/posts/the-code-of-silence/</guid><description>&lt;p&gt;In the quiet hum of the server room,
-Where logic weaves its digital loom,
-We trade in absolute, binary truth,
-Seeking elegance in eternal youth.&lt;/p&gt;
-&lt;p&gt;But life is fuzzy, a float precision,
-Full of race conditions and blurred vision.
-We debug the world line by line,
-Hoping the output will be divine.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Is the universe just a recursive call?&lt;/em&gt;
-&lt;em&gt;Or are we trapped in an endless &lt;code&gt;while(true)&lt;/code&gt; loop after all?&lt;/em&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>In the quiet hum of the server room,
+]]></content:encoded>
+    </item>
+    <item>
+      <title>The Code of Silence</title>
+      <link>http://localhost:1313/posts/the-code-of-silence/</link>
+      <pubDate>Fri, 30 Jan 2026 21:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/the-code-of-silence/</guid>
+      <description>&lt;p&gt;In the quiet hum of the server room,&#xA;Where logic weaves its digital loom,&#xA;We trade in absolute, binary truth,&#xA;Seeking elegance in eternal youth.&lt;/p&gt;&#xA;&lt;p&gt;But life is fuzzy, a float precision,&#xA;Full of race conditions and blurred vision.&#xA;We debug the world line by line,&#xA;Hoping the output will be divine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Is the universe just a recursive call?&lt;/em&gt;&#xA;&lt;em&gt;Or are we trapped in an endless &lt;code&gt;while(true)&lt;/code&gt; loop after all?&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In the quiet hum of the server room,
 Where logic weaves its digital loom,
 We trade in absolute, binary truth,
 Seeking elegance in eternal youth.</p>
@@ -40,10 +48,20 @@ We debug the world line by line,
 Hoping the output will be divine.</p>
 <p><em>Is the universe just a recursive call?</em>
 <em>Or are we trapped in an endless <code>while(true)</code> loop after all?</em></p>
-]]></content:encoded></item><item><title>So You Want to Be a Programmer</title><link>https://rorimwema.github.io/posts/hello-world/</link><pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate><guid>https://rorimwema.github.io/posts/hello-world/</guid><description>&lt;p&gt;So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.&lt;/p&gt;
-&lt;p&gt;Programming is not glamorous. It is not about showing off frameworks or boasting about your GitHub streak. It is about sitting there, staring at a problem, feeling your brain ache a little, and then — suddenly — a door opens, a tiny mechanism clicks, and the machine obeys. That moment is bliss, more than any job title or paycheck.&lt;/p&gt;</description><content:encoded><![CDATA[<p>So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>So You Want to Be a Programmer</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.&lt;/p&gt;&#xA;&lt;p&gt;Programming is not glamorous. It is not about showing off frameworks or boasting about your GitHub streak. It is about sitting there, staring at a problem, feeling your brain ache a little, and then — suddenly — a door opens, a tiny mechanism clicks, and the machine obeys. That moment is bliss, more than any job title or paycheck.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>So you want to be a programmer. You think it is about computers, about code, about some neat abstractions stacked in your head. But really, it is about patience and curiosity and the relentless itch of wanting to see what happens when you poke at the world.</p>
 <p>Programming is not glamorous. It is not about showing off frameworks or boasting about your GitHub streak. It is about sitting there, staring at a problem, feeling your brain ache a little, and then — suddenly — a door opens, a tiny mechanism clicks, and the machine obeys. That moment is bliss, more than any job title or paycheck.</p>
 <p>Charles Bukowski said writing is a gut feeling, a way to bleed yourself onto the page. Programming is the same, only your bleeding is logic, your words are functions, your paragraphs are data structures. Sussman would tell you it is about understanding the system, the abstraction, not just hacking on the surface. Paul Graham would tell you to build something people want, to start with what fascinates you, and then sweat the details until your code becomes invisible, elegant, and powerful.</p>
 <p>If you want to be a programmer, be prepared to fail. Be prepared to love the failures, because every bug is a teacher, every crash is a conversation. Be authentic. Write code like you breathe — messy, desperate, alive.</p>
 <p>Programming is not a career. It is a calling. And if you want it, you will not be stopped by languages, frameworks, or abstractions. You will be stopped only by yourself.</p>
-]]></content:encoded></item></channel></rss>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

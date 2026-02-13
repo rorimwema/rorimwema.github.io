@@ -35,3 +35,13 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+services:
+  rss:
+    limit: 10
