@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/buddha-icon.svg" />
+<title>Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence | Clint Rori</title>
+<meta name="title" content="Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence" />
+<meta name="description" content="How I stopped trying to build one perfect AI and started building a team of specialized ones.
+The Problem I Actually Wanted to Solve
+I started Fenra because I kept reading about corruption cases in Kenya where the patterns were obvious in hindsight—strange procurement patterns, shell companies, duplicate payments—but nobody caught them in real-time. The data was there, scattered across different systems. The connections were there too, but buried under too much noise for humans to spot quickly." />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/building-fenra/">
+  <meta property="og:site_name" content="Clint Rori">
+  <meta property="og:title" content="Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence">
+  <meta property="og:description" content="How I stopped trying to build one perfect AI and started building a team of specialized ones.
+The Problem I Actually Wanted to Solve I started Fenra because I kept reading about corruption cases in Kenya where the patterns were obvious in hindsight—strange procurement patterns, shell companies, duplicate payments—but nobody caught them in real-time. The data was there, scattered across different systems. The connections were there too, but buried under too much noise for humans to spot quickly.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-02T15:38:26+03:00">
+    <meta property="article:modified_time" content="2026-03-02T15:38:26+03:00">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence">
+  <meta name="twitter:description" content="How I stopped trying to build one perfect AI and started building a team of specialized ones.
+The Problem I Actually Wanted to Solve I started Fenra because I kept reading about corruption cases in Kenya where the patterns were obvious in hindsight—strange procurement patterns, shell companies, duplicate payments—but nobody caught them in real-time. The data was there, scattered across different systems. The connections were there too, but buried under too much noise for humans to spot quickly.">
+
+
+  
+  
+  <meta itemprop="name" content="Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence">
+  <meta itemprop="description" content="How I stopped trying to build one perfect AI and started building a team of specialized ones.
+The Problem I Actually Wanted to Solve I started Fenra because I kept reading about corruption cases in Kenya where the patterns were obvious in hindsight—strange procurement patterns, shell companies, duplicate payments—but nobody caught them in real-time. The data was there, scattered across different systems. The connections were there too, but buried under too much noise for humans to spot quickly.">
+  <meta itemprop="datePublished" content="2026-03-02T15:38:26+03:00">
+  <meta itemprop="dateModified" content="2026-03-02T15:38:26+03:00">
+  <meta itemprop="wordCount" content="790">
+  <meta itemprop="keywords" content="Projects,AI,Systems Design">
+
+<meta name="referrer" content="no-referrer-when-downgrade" /><link href="/original.min.css" rel="stylesheet"><link href="/custom.min.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet"></head>
+
+<body>
+  <header>
+    <a href="http://localhost:1313/" style="font-weight: bold; font-size: 1.2rem; text-decoration: none; color: #111;">Clint Rori</a><nav>
+  <ul><li>
+      <a href="/" >
+        Home
+      </a>
+    </li><li>
+      <a href="/posts/" >
+        Posts
+      </a>
+    </li><li>
+      <a href="/projects/" >
+        Projects
+      </a>
+    </li><li>
+      <a href="/now/" >
+        Now
+      </a>
+    </li><li>
+      <a href="/about/" >
+        About
+      </a>
+    </li><li>
+      <a href="/categories/" >
+        Categories
+      </a>
+    </li></ul>
+</nav></header>
+  <main id="main-content">
+<article>
+  <header>
+    <h1>Building Fenra: From &#39;Find the Corruption&#39; to Swarm Intelligence</h1>
+    <div class="post-meta">
+      
+      <span>March 2, 2026</span>
+      <span>&bull;</span>
+      
+      <span>4 min read</span>
+      
+      <span>&bull;</span>
+      
+      <a href="/%20categories/projects">Projects</a>
+      
+      <a href="/%20categories/ai">AI</a>
+      
+      <a href="/%20categories/systems-design">Systems Design</a>
+      
+      
+      
+    </div>
+  </header>
+
+  <div class="content">
+    <p>How I stopped trying to build one perfect AI and started building a team of specialized ones.</p>
+<h2 id="the-problem-i-actually-wanted-to-solve">The Problem I Actually Wanted to Solve</h2>
+<p>I started Fenra because I kept reading about corruption cases in Kenya where the patterns were obvious in hindsight—strange procurement patterns, shell companies, duplicate payments—but nobody caught them in real-time. The data was there, scattered across different systems. The connections were there too, but buried under too much noise for humans to spot quickly.</p>
+<p>My first thought: build one smart AI that can read everything and tell you when something looks corrupt.</p>
+<p>That didn&rsquo;t work.</p>
+<h2 id="why-single-ai-models-fail-at-this">Why Single AI Models Fail at This</h2>
+<p>I tried the obvious approach first. Feed documents into a large language model, ask &ldquo;is this corrupt?&rdquo; The results were either:</p>
+<ul>
+<li><strong>Too vague</strong> (&ldquo;this seems suspicious&rdquo; — thanks, but why?)</li>
+<li><strong>Too confident</strong> (flagging legitimate transactions because of unusual but legal patterns)</li>
+<li><strong>Or missing things entirely</strong> (not understanding that two shell companies sharing a director matters)</li>
+</ul>
+<p>The problem isn&rsquo;t that LLMs are dumb. It&rsquo;s that corruption detection requires multiple types of reasoning at once:</p>
+<ul>
+<li><strong>Pattern matching</strong> (unusual transaction amounts, timing)</li>
+<li><strong>Relationship tracing</strong> (who knows who, company networks)</li>
+<li><strong>Legal knowledge</strong> (what actually violates procurement laws)</li>
+<li><strong>Context awareness</strong> (this is normal for this industry, weird for that one)</li>
+</ul>
+<p>No single model is good at all of these. And even if one was, I didn&rsquo;t want a black box making accusations.</p>
+<h2 id="the-swarm-idea">The Swarm Idea</h2>
+<p>I started thinking about how actual investigations work. You don&rsquo;t have one super-detective who does everything. You have:</p>
+<ul>
+<li>A forensic accountant who traces money</li>
+<li>A network analyst who maps relationships</li>
+<li>A legal researcher who knows the regulations</li>
+<li>A senior investigator who reviews findings before anything goes to court</li>
+</ul>
+<p>So I built Fenra as a swarm. Multiple specialized agents, each with a specific job, coordinated by a &ldquo;Judge&rdquo; that verifies conclusions before they&rsquo;re reported.</p>
+<h2 id="why-graph-rag-was-the-right-choice">Why Graph RAG Was the Right Choice</h2>
+<p>Early on, I tried standard RAG (Retrieval-Augmented Generation) — chunk documents, embed them, retrieve relevant chunks when querying. It worked for simple questions but failed on relationships.</p>
+<p><strong>Example:</strong> Company A paid Company B. Company B&rsquo;s director is the cousin of a procurement officer. That&rsquo;s three hops. Standard vector search doesn&rsquo;t handle hops well.</p>
+<p><strong>Graph RAG</strong> stores entities (companies, people, transactions) as nodes and relationships as edges. Now the &ldquo;network analyst&rdquo; agent can actually traverse connections—follow the money, find shared directors, spot circular payments.</p>
+<p>The graph also gives us explainability. When Fenra flags something, we can show the path:</p>
+<blockquote>
+<p>&ldquo;Flagged because Company A → paid → Company B → director is → Person C → related to → Procurement Officer D.&rdquo;</p>
+</blockquote>
+<h2 id="the-architecture-that-actually-works">The Architecture That Actually Works</h2>
+<p>Here&rsquo;s what I ended up with:</p>
+<h3 id="specialist-agents-the-workers">Specialist Agents (The Workers)</h3>
+<ul>
+<li><strong>Transaction Analyzer</strong>: Looks at financial patterns, outliers, timing anomalies</li>
+<li><strong>Network Mapper</strong>: Traverses the knowledge graph to find hidden relationships</li>
+<li><strong>Legal Checker</strong>: Knows procurement regulations, flags procedural violations</li>
+<li><strong>Document Reader</strong>: Extracts entities and relationships from unstructured text (contracts, emails)</li>
+</ul>
+<h3 id="the-judge-the-verifier">The Judge (The Verifier)</h3>
+<ul>
+<li>Takes findings from specialists and verifies them against evidence</li>
+<li>Checks for contradictions between agents</li>
+<li>Assigns confidence scores</li>
+<li>Only escalates high-confidence, well-supported findings</li>
+</ul>
+<h3 id="the-graph-store">The Graph Store</h3>
+<ul>
+<li><strong>Neo4j</strong> for relationship data (who knows who, ownership structures)</li>
+<li><strong>Vector store</strong> for semantic search (finding similar contract language, for example)</li>
+<li>Both feed into each other — vector search finds relevant documents, graph traversal finds connections within them</li>
+</ul>
+<h2 id="why-ocaml-and-erlang">Why OCaml and Erlang</h2>
+<p>I get asked why I didn&rsquo;t just use Python like everyone else. A few reasons:</p>
+<p><strong>OCaml for the core logic:</strong> Corruption detection involves a lot of data transformation and rule evaluation. OCaml&rsquo;s type system catches bugs at compile time that would be runtime errors in Python. When you&rsquo;re dealing with legal and financial data, &ldquo;oops, NoneType has no attribute&rdquo; isn&rsquo;t acceptable.</p>
+<p>Also, hot code reloading means I can update an agent&rsquo;s logic without stopping the system. Important when you&rsquo;re iterating on detection rules.</p>
+<h2 id="what-i-learned-the-hard-way">What I Learned the Hard Way</h2>
+<ol>
+<li>
+<p><strong>Start with synthetic data:</strong> I spent weeks trying to get real procurement data. Don&rsquo;t. Generate fake but realistic corruption patterns first. If your system can&rsquo;t find fake corruption you planted yourself, it won&rsquo;t find real corruption either.</p>
+</li>
+<li>
+<p><strong>The graph schema matters more than the model:</strong> I wasted time fine-tuning LLMs when the real problem was my graph schema didn&rsquo;t capture &ldquo;subsidiary of&rdquo; relationships properly. Fix your data model first.</p>
+</li>
+<li>
+<p><strong>Explainability is not optional:</strong> In a real deployment, every flag Fenra raises will be challenged. &ldquo;The AI said so&rdquo; is not a defense. The graph structure gives us audit trails by default.</p>
+</li>
+<li>
+<p><strong>Human-in-the-loop is a feature, not a bug:</strong> The Judge agent doesn&rsquo;t just verify AI outputs—it creates a checkpoint where human investigators can review, correct, and improve the system. The goal isn&rsquo;t to replace investigators, it&rsquo;s to make them 10x more effective.</p>
+</li>
+</ol>
+
+  </div>
+
+  <div class="byline">
+    <small>Written by Clint Rori</small>
+  </div>
+</article>
+</main><footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="https://github.com/rorimwema" target="_blank" rel="noopener" class="footer-link">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        GitHub
+      </a>
+      <a href="mailto:rorimwema@gmail.com" class="footer-link">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        Contact
+      </a>
+      <a href="/index.xml" class="footer-link">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 11a9 9 0 0 1 9 9"></path>
+          <path d="M4 4a16 16 0 0 1 16 16"></path>
+          <circle cx="5" cy="19" r="1"></circle>
+        </svg>
+        RSS
+      </a>
+    </div>
+    <p class="footer-copy">
+      &copy; 2026 Clint Rori
+    </p>
+  </div>
+</footer>
+  
+</body>
+
+</html>

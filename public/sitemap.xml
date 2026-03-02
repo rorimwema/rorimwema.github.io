@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-04T20:30:00+03:00</lastmod>
+    <loc>http://localhost:1313/categories/ai/</loc>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/poems--philosophy/</loc>
-    <lastmod>2026-02-04T20:30:00+03:00</lastmod>
+    <loc>http://localhost:1313/posts/building-fenra/</loc>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-02-04T20:30:00+03:00</lastmod>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/systems-design/</loc>
+    <lastmod>2026-03-02T15:38:26+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/kowalski/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/poems--philosophy/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/we-are-just-conscious-animals/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/dont-grow-up/</loc>
     <lastmod>2026-02-04T20:30:00+03:00</lastmod>
@@ -17,16 +38,10 @@
     <loc>http://localhost:1313/posts/the-code-of-silence/</loc>
     <lastmod>2026-01-30T21:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/flowy/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/nvim-config/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
@@ -37,12 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/lisp-interpreter/</loc>
-    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/search-engine/</loc>
-    <lastmod>2025-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/now/</loc>
   </url><url>
