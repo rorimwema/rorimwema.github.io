@@ -7,17 +7,17 @@ I believe computers are simple. It's us humans who keep making them complicated.
 
 I'm that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I'm deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs *before* they happen. 
 
-### My Toolbox (Affectionately Overcomplicated)
+### My Toolbox
 
-**OCaml** — My comfort zone. Currently building a Lisp interpreter because apparently writing one language in another language isn't meta enough.
+**OCaml** — My daily driver. The type system catches bugs before they exist, and hot code reloading means I can iterate without downtime. I use it for anything that needs to stay standing.
 
-**Erlang** — For when I need processes that don't crash when I inevitably make mistakes. The "let it fail" philosophy speaks to me on a spiritual level.
+**TypeScript** — When I have to touch the web, I want types. It's JavaScript that won't stab you in production at 3am.
 
-**Elm** — JavaScript that is not shit. Type-safe frontend development; what a concept.
+**Python** — Still the best for gluing things together, scripting, and when the AI ecosystem hasn't caught up to ML family languages yet.
 
-**Haskell** — I "cheat" with it. Building a search engine and pretending I understand monads. (I don't. Nobody does. We all just pretend.)
+**Neovim** — My editor of choice. Custom config in Lua, sub-50ms startup, LSP for everything. I don't fight my tools; they disappear.
 
-**The Art of Computer Programming** — Currently working through Knuth. Volume 4B is my gym membership—I keep paying for it but rarely show up.
+**Pi Coding Agent** — My pair programmer that doesn't sleep. Good for scaffolding, refactoring, and rubber-ducking at scale.
 
 ### Philosophy
 
@@ -25,8 +25,8 @@ I admire **Mat Armstrong's** approach: solve the actual problem, ignore the hype
 
 ### Currently Building
 
-- A Lisp interpreter in OCaml (because every programmer must go through this rite of passage)
-- A search engine in Haskell (because crawling the web seemed easier than understanding Zettabyte-scale systems papers)
+- **Kowalski** — A set-and-forget tax agentic platform for Kenyan SMEs. OCaml for the rules engine, Erlang for agent orchestration, direct KRA filing via eTIMS.
+- **Fenra** — A swarm intelligence system for detecting corruption in public procurement. Multi-agent architecture with Graph RAG for relationship tracing.
 
 ### The Goal
 
