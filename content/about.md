@@ -3,37 +3,39 @@ title: "About Me"
 date: 2026-01-20T10:00:00+03:00
 draft: false
 ---
+
 I believe computers are simple. It's us humans who keep making them complicated.
 
-I'm that programmer who reads programming language theory for fun and genuinely enjoys compiler design. While others debate framework-of-the-week, I'm deep in the ML family, OCaml is my daily driver, and yes, I use the type system to prevent bugs *before* they happen. 
+I'm a systems developer. I care about what happens beneath the surface: compilers, runtimes, type systems, distributed processes, supervision trees, protocols, editor tooling, and the tiny design choices that decide whether software stays understandable.
+
+While others debate framework-of-the-week, I'm usually somewhere in the ML family, reading programming language theory for fun, or trying to make a system fail in boring, predictable ways.
 
 ### My Toolbox
 
-**OCaml** — My daily driver. The type system catches bugs before they exist, and hot code reloading means I can iterate without downtime. I use it for anything that needs to stay standing.
+**OCaml** — My daily driver. I like strong types, explicit models, and programs that make invalid states difficult to express.
 
-**TypeScript** — When I have to touch the web, I want types. It's JavaScript that won't stab you in production at 3am.
+**Erlang/OTP** — For fault-tolerant systems, supervision, message passing, and software that can survive parts of itself failing.
 
-**Python** — Still the best for gluing things together, scripting, and when the AI ecosystem hasn't caught up to ML family languages yet.
+**Lua + Neovim** — My editor is part of my systems workflow. Fast startup, small pieces, LSP everywhere, and tools that disappear when I'm thinking.
 
-**Neovim** — My editor of choice. Custom config in Lua, sub-50ms startup, LSP for everything. I don't fight my tools; they disappear.
+**Python** — For scripts, experiments, glue code, and quick probes when I need to inspect something before building the real version.
 
-**Pi Coding Agent** — My pair programmer that doesn't sleep. Good for scaffolding, refactoring, and rubber-ducking at scale.
+**Pi Coding Agent** — My pair programmer that doesn't sleep. Useful for scaffolding, refactoring, and rubber-ducking through gnarly implementation details.
 
 ### Philosophy
 
-I admire **Mat Armstrong's** approach: solve the actual problem, ignore the hype, write code that makes sense six months later. Complexity is a bug, not a feature. If you need a diagram to explain your architecture, your architecture is wrong.
+I admire **Mat Armstrong's** approach: solve the actual problem, ignore the hype, write code that makes sense six months later. Complexity is a bug, not a feature. If you need a diagram to explain your architecture, your architecture is probably asking for a simpler shape.
 
 ### Currently Building
 
-- **Kowalski** — A set-and-forget tax agentic platform for Kenyan SMEs. OCaml for the rules engine, Erlang for agent orchestration, direct KRA filing via eTIMS.
-- **Fenra** — A swarm intelligence system for detecting corruption in public procurement. Multi-agent architecture with Graph RAG for relationship tracing.
+- **Lisp Interpreter** — An OCaml interpreter for learning language implementation properly: parsing, evaluation, environments, macros, and eventually a small runtime.
+- **Fenra** — A distributed detection system for public procurement signals, with the interesting work in orchestration, verification, graph traversal, and explainability.
+- **Neovim tooling** — My personal development environment, tuned around fast feedback and language-server-driven systems work.
 
 ### The Goal
 
-Uncomplicate things. Make programming accessible. Prove that elegant solutions exist—you just have to stop accepting messy ones.
+Build systems that are small enough to understand, strong enough to trust, and boring enough to operate.
 
 ---
 
 *"The best code is the code you don't have to write. The second best is the code you write once and never touch again."*
-
----

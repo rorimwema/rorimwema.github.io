@@ -9,7 +9,11 @@
     <ul class="project-list">
         {{ range .Pages }}
         <li class="project-item">
-            <a href="{{ .Params.repo_url | default .RelPermalink }}" class="project-link" target="_blank" rel="noopener">
+            {{ if .Params.repo_url }}
+            <a href="{{ .Params.repo_url }}" class="project-link" target="_blank" rel="noopener">
+            {{ else }}
+            <a href="{{ .RelPermalink }}" class="project-link">
+            {{ end }}
                 <span class="project-title">{{ .Title }}</span>
                 <span class="project-arrow">→</span>
             </a>

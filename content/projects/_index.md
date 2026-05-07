@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Things I've built, broken, and rebuilt."
+description: "Systems, tools, interpreters, and experiments."
 ---

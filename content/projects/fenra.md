@@ -1,48 +1,55 @@
 ---
 title: "Fenra"
 date: 2026-03-02
-description: "A swarm intelligence system for detecting corruption in public procurement."
-technologies: ["OCaml", "Erlang", "Graph RAG", "Neo4j"]
+description: "A distributed graph-analysis system for detecting suspicious public procurement patterns."
+technologies: ["OCaml", "Erlang/OTP", "Graph Systems", "Neo4j"]
 ---
 
-Fenra is a multi-agent system for detecting corruption patterns in public procurement data. It uses a swarm of specialized AI agents coordinated by a verification layer called "the Judge."
+Fenra is a distributed system for detecting suspicious patterns in public procurement data.
+
+The interesting part is systems work: coordinating specialized workers, representing relationships as a graph, verifying outputs, handling failure, and producing evidence trails that humans can inspect.
 
 ### The Problem
 
-Corruption in procurement leaves traces across multiple systems—financial records, company registries, contract documents. The patterns are obvious in hindsight but buried under noise in real-time. Single AI models fail because corruption detection requires simultaneous reasoning about:
+Procurement irregularities leave traces across multiple systems: financial records, company registries, contract documents, and award histories. The patterns are often obvious in hindsight but buried under noise in real time.
 
-- Financial anomalies (pattern matching)
-- Relationship networks (graph traversal)
-- Legal compliance (rule evaluation)
-- Industry context (domain knowledge)
+Detecting them requires several kinds of computation working together:
 
-### The Swarm Architecture
+- Financial anomaly detection
+- Relationship graph traversal
+- Rule evaluation
+- Document/entity extraction
+- Evidence verification
 
-**Specialist Agents (The Workers):**
+### System Shape
+
+**Specialized Workers:**
 
 - **Transaction Analyzer**: Detects outliers in amounts, timing, and frequency
-- **Network Mapper**: Traverses knowledge graphs to find hidden relationships between companies and officials
-- **Legal Checker**: Flags procedural violations against procurement regulations
+- **Network Mapper**: Traverses graphs to find hidden relationships between companies and officials
+- **Rule Checker**: Flags procedural violations against procurement rules
 - **Document Reader**: Extracts entities and relationships from unstructured text
 
-**The Judge (The Verifier):**
+**Verification Layer:**
 
 - Validates findings against evidence
-- Checks for contradictions between agents
+- Checks for contradictions between workers
 - Assigns confidence scores
-- Only escalates high-confidence, well-supported flags
+- Escalates only well-supported signals
 
-### Graph RAG
+### Graph-First Design
 
-Fenra uses Graph RAG instead of standard vector search. Entities (companies, people, transactions) are nodes; relationships are edges. This enables multi-hop reasoning:
+Fenra models entities as nodes and relationships as edges: companies, people, tenders, awards, transactions, addresses, and ownership links.
 
-> "Company A paid Company B → Company B's director is Person C → Person C is related to Procurement Officer D"
+That makes multi-hop reasoning inspectable:
 
-The graph structure also provides explainability—every flag comes with an auditable path.
+> Company A paid Company B → Company B's director is Person C → Person C is related to Procurement Officer D
+
+The graph also gives every flag an auditable path instead of a black-box answer.
 
 ### Tech Stack
 
+- **OCaml** for core logic and rule evaluation
+- **Erlang/OTP** for orchestration, supervision, and fault tolerance
 - **Neo4j** for relationship data and graph traversal
-- **Vector store** for semantic search over documents
-- **OCaml** for the core logic—type safety for financial and legal data
-- **Erlang** for agent orchestration—hot code reloading without downtime
+- **Structured extraction** for turning documents into typed records and graph edges
