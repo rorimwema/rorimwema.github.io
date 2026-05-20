@@ -103,6 +103,10 @@ header > a {
   color: var(--tx-main);
 }
 
+header > a:hover {
+  color: var(--tx-main);
+}
+
 nav ul {
   list-style: none;
   display: flex;
