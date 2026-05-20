@@ -1,0 +1,41 @@
+/* Flexoki Light Syntax Highlighting */
+.chroma {
+  color: var(--tx-main);
+  background-color: transparent;
+}
+.chroma .err { color: var(--re); }
+.chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl { background-color: var(--ye-2); }
+.chroma .lnt, .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: var(--tx-tertiary); }
+.chroma .line { display: flex; }
+.chroma .k, .chroma .kd, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .kt { color: var(--gr); }
+.chroma .kc { color: var(--ye); }
+.chroma .na, .chroma .nb, .chroma .nl { color: var(--bl); }
+.chroma .nc { color: var(--or); }
+.chroma .nd { color: var(--pu); }
+.chroma .ni { color: var(--ma); }
+.chroma .ne { color: var(--re); }
+.chroma .nf { color: var(--or); }
+.chroma .no { color: var(--ye); }
+.chroma .nt { color: var(--ma); }
+.chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi { color: var(--bl); }
+.chroma .bp { color: var(--ma); }
+.chroma .py { color: var(--bl); }
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl, .chroma .sd, .chroma .s2, .chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr, .chroma .s1, .chroma .ss { color: var(--cy); }
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo { color: var(--pu); }
+.chroma .o, .chroma .ow { color: var(--tx-secondary); }
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1 { color: var(--tx-tertiary); font-style: italic; }
+.chroma .cs { color: var(--tx-tertiary); font-style: italic; }
+.chroma .cp, .chroma .cpf { color: var(--re); }
+.chroma .gd { color: var(--re); }
+.chroma .ge { font-style: italic; }
+.chroma .gh { color: var(--tx-main); font-weight: bold; }
+.chroma .gi { color: var(--gr); }
+.chroma .go { color: var(--tx-secondary); }
+.chroma .gp { color: var(--tx-secondary); }
+.chroma .gs { font-weight: bold; }
+.chroma .gu { color: var(--tx-tertiary); }
+.chroma .gt { color: var(--re); }
+.chroma .gl { color: var(--tx-tertiary); }
+.chroma .w { color: var(--tx-tertiary); }

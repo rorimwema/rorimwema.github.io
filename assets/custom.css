@@ -15,6 +15,25 @@
   --base-50: #F2F0E5;
   --paper: #FFFCF0;
 
+  /* Flexoki Accent Colors - Light mode uses 600 values */
+  --re: #AF3029;
+  --or: #BC5215;
+  --ye: #AD8301;
+  --gr: #66800B;
+  --cy: #24837B;
+  --bl: #205EA6;
+  --pu: #5E409D;
+  --ma: #A02F6F;
+
+  --re-2: #D14D41;
+  --or-2: #DA702C;
+  --ye-2: #D0A215;
+  --gr-2: #879A39;
+  --cy-2: #3AA99F;
+  --bl-2: #4385BE;
+  --pu-2: #8B7EC8;
+  --ma-2: #CE5D97;
+
   /* Typography */
   --font-body: "Lexend Deca", system-ui, sans-serif;
   --font-heading: "Lexend Deca", system-ui, sans-serif;
@@ -28,8 +47,8 @@
   --tx-tertiary: var(--base-300);
   --ui-border: var(--base-100);
   --ui-hover: var(--base-150);
-  --link: var(--base-800);
-  --link-hover: var(--black);
+  --link: var(--cy);
+  --link-hover: var(--bl);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,8 +60,27 @@
     --tx-tertiary: var(--base-700);
     --ui-border: var(--base-900);
     --ui-hover: var(--base-850);
-    --link: var(--base-300);
-    --link-hover: var(--base-200);
+    --link: var(--cy-2);
+    --link-hover: var(--cy);
+
+    /* Dark mode: use 400 values for accent colors */
+    --re: #D14D41;
+    --or: #DA702C;
+    --ye: #D0A215;
+    --gr: #879A39;
+    --cy: #3AA99F;
+    --bl: #4385BE;
+    --pu: #8B7EC8;
+    --ma: #CE5D97;
+
+    --re-2: #AF3029;
+    --or-2: #BC5215;
+    --ye-2: #AD8301;
+    --gr-2: #66800B;
+    --cy-2: #24837B;
+    --bl-2: #205EA6;
+    --pu-2: #5E409D;
+    --ma-2: #A02F6F;
   }
 }
 
